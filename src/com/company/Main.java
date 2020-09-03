@@ -1,4 +1,5 @@
 package com.company;
+import java.util.*;
 
 public class Main {
 
@@ -9,5 +10,9 @@ public class Main {
         System.out.println("Chitranshu");
         System.out.println("Shantanu");
         System.out.println("Koryaaaa");
+        Scanner input = new Scanner(System.in);
+        System.out.print("Fill in the blanks: IME___: ");
+        int code = input.nextInt();
+        System.out.println("IME"+code);
     }
 }
